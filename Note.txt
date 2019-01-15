@@ -1,9 +1,27 @@
-2019/1/15
-1. Git is a version control system.
-2. Git is a free software.
+NOTE of COMMAND:
 
-3. initailize an empty Git repository: git init.
-4. add new file(s): 
-	git add <filename(s)>;
-	git commit -m <message>
-5. check what's new: git diff <filename>
+2019/1/15
+	1. Git is a version control system.
+	2. Git is a free software.
+
+	3. initailize an empty Git repository: git init.
+	4. add new file(s): 
+		git add <filename(s)>;
+		git commit -m <message>
+	5. check the status: git status
+	6. check what's new: git diff <filename>
+	7. see log: 
+		git log
+		OR 
+		git log --pretty=oneline (only show id and comment)
+	8. back 
+		to last version: git reset --hard HEAD^
+		to any version: git reset --hard <commit id>
+	9. see command log: git reflog
+
+//////////////////////////////////////////////////////
+NOTE of DEFINATION:
+
+2019/1/15
+	HEAD: 一个指向现在版本的指针。可变动对象。
+	
