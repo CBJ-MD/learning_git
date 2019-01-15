@@ -6,4 +6,4 @@
 4. add new file(s): 
 	git add <filename(s)>;
 	git commit -m <message>
-5. 
+5. check what's new: git diff <filename>
