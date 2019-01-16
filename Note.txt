@@ -22,7 +22,10 @@ NOTE of COMMAND:
 2019/1/16
 	1. discard changes in working directory:  git checkout -- <filename>
 	2. unstage uncommited changes: git reset HEAD <filename>
-	3. remove file(s) 
+	3. remove file(s): 
+		git rm <filename>
+		git commit -m <message>
+	
 //////////////////////////////////////////////////////
 NOTE of DEFINATION:
 
@@ -32,5 +35,6 @@ NOTE of DEFINATION:
 	工作区：直接修改文件内容的地方（git init创建的文件夹区域）
 	暂存区（stage）：git add将工作区文件的修改暂存到暂存区
 	master branch: git commit将暂存区文件修改提交到master branch（同时清空暂存区）
+	git可以恢复误删的文件，但仅有最新版。
 	
 	
