@@ -21,7 +21,8 @@ NOTE of COMMAND:
 
 2019/1/16
 	1. discard changes in working directory:  git checkout -- <filename>
-	
+	2. unstage uncommited changes: git reset HEAD <filename>
+	3. remove file(s) 
 //////////////////////////////////////////////////////
 NOTE of DEFINATION:
 
