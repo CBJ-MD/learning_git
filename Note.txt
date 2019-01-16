@@ -19,9 +19,17 @@ NOTE of COMMAND:
 		to any version: git reset --hard <commit id>
 	9. see command log: git reflog
 
+2019/1/16
+	1. discard changes in working directory:  git checkout -- <filename>
+	
 //////////////////////////////////////////////////////
 NOTE of DEFINATION:
 
 2019/1/15
 	HEAD: 一个指向现在版本的指针。可变动对象。
+2019/1/16
+	工作区：直接修改文件内容的地方（git init创建的文件夹区域）
+	暂存区（stage）：git add将工作区文件的修改暂存到暂存区
+	master branch: git commit将暂存区文件修改提交到master branch（同时清空暂存区）
+	
 	
