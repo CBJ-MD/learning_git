@@ -25,6 +25,13 @@ NOTE of COMMAND:
 	3. remove file(s): 
 		git rm <filename>
 		git commit -m <message>
+
+2019/1/18
+	1. Create and switch to a new branch:
+		git checkout -b dev
+		(== git branch dev
+			git checkout dev)
+	2. check the branch: git branch
 	
 //////////////////////////////////////////////////////
 NOTE of DEFINATION:
