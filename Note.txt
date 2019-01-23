@@ -35,6 +35,16 @@ NOTE of COMMAND:
 	3. switch branch: git checkout <branch name>
 	4. merge branch with another: git merge <branch name>
 	5. delete branch: git branch -d <branch name>
+	
+2019/01/23
+	1. Create new tag: git tag <tag name> (commit ID(defualt: HEAD))
+	2. Create new tag with message: git tag -a <tag name> -m "<message>"
+	3. Show all tags: git tag
+	4. Show tag detail: git show <tag name>
+	5. Delete a tag: git tag -d <tag name>
+	6. Push tag to origin: git push origin <tag name>
+	7. Push all unpushed tags to origin: git push origin --tags
+	8. Delete a tag in origin: git push origin :refs/tags/<tag name> 
 //////////////////////////////////////////////////////
 NOTE of DEFINATION:
 
@@ -74,3 +84,5 @@ NOTE of DEFINATION:
 	
 	rebase操作可以把本地未push的分叉提交历史整理成直线；
 	rebase的目的是使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比。
+2019/1/23
+	
